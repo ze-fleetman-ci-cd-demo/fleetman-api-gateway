@@ -19,7 +19,7 @@ pipeline {
       }
       stage('Build') {
          tools {
-            jdk "jdk1.8.0_275"
+            jdk "jdk1.8.0_322"
          }
          steps {
             sh '''mvn clean package'''
